@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Data</title>
+<link rel="stylesheet" href="CSS/add.css">
+ <link rel="stylesheet" href="CSS/home.css">
+ 
+</head>
+<body>
+<marquee behavior="" direction="" ><h3 id="mr"><i>Welcome to Student Management System</i></h3></marquee>
+
+
+    <table align="center">
+        <tr>
+            <td><a href="homepage.html">HOME</a></td>
+            <td><a href="add.html">ADD DATA</a></td>
+            <td><a href="all_emp_controller">VIEW DATA</a></td>
+        </tr>
+    </table>
+
+
+<div align="center" style="margin-left: 400px"><br>
+
+    <form action="emp_controler_handler" method="get">
+            <h2>Add Data</h2><br>
+            <table>
+                <tr>
+                    <td>ID</td>
+                    <td>: <input type="text" name="id" placeholder="Enter Id"></td>
+                </tr>
+                <tr>
+                    <td> Name </td>
+                    <td>: <input type="text" name="name" placeholder="Enter name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>: <input type="email" name="email" placeholder="Enter email"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>: <input type="phone" name="phone" placeholder="Enter phone"></td>
+                </tr>
+                <tr>
+                    <td>Date of Joining </td>
+                    <td>: <input type="date" name="doj"></td>
+                </tr>
+                <tr>
+                    <td>Birth date </td>
+                    <td>: <input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Aadhaar</td>
+                    <td>: <input type="text" name="adhar" placeholder="Enter adhar details"></td>
+                </tr>
+            </table><br>
+            <input type="submit"  value="Submit" id="btn">    
+    </form>   
+</div>
+
+</body>
+</html>
+

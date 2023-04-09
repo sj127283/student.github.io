@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+td{
+    padding: 10px;
+}
+
+input{
+    border: none;
+}
+input:hover{
+    background-color: aqua;
+}
+
+#div{
+    background-color: aliceblue;
+    width: 500px;
+}
+
+
+#btn{
+   background-color: rgb(87, 233, 87);
+   border: none;
+   height: 30px;
+   border-radius: 10px;
+   color: white;
+}
+
+#btn:hover{
+background-color: green;
+}
+
+#btn1{
+   background-color: rgb(204, 65, 65);
+   border: none;
+   height: 30px;
+   border-radius: 10px;
+   color: white;
+}
+#btn1:hover{
+    background-color: red;
+    
+}

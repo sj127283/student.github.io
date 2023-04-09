@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+#img{
+
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+body{
+	background-image:url("/student/image/college.jpg");
+	background-size: cover;
+    height: 1000px;
+}
+
+td{
+    padding: 10px;  
+}
+
+table{
+     font-family:'Times New Roman', Times, serif;
+}
+
+a{
+    color: rgb(31, 29, 29);
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+#mr{
+    color: brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    
+}
+

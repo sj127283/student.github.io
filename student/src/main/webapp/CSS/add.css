@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+div{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px; 
+   background-color: aliceblue;
+}
+
+td{
+    padding: 10px;
+}
+
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#btn{
+
+    background-color: rgb(48, 224, 48);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px 10px 20px rgb(109, 201, 109);
+}
+
+#btn:hover{
+    background-color: green;
+}
+
+#btn1{
+
+    background-color: rgb(172, 214, 22);
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px 10px 20px rgb(174, 209, 77);
+}
+
+#btn1:hover{
+    background-color:rgb(223, 223, 74);
+}
+
+input{
+    border: none;
+}
+
+input:hover{
+    background-color:aqua;
+}

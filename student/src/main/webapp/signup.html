@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign-Up user</title>
+<link rel="stylesheet" href="CSS/signup.css">
+ <link rel="stylesheet" href="CSS/home.css">
+</head>
+<body>
+<center><br><br><br><br>
+<div  id="div" ><br> <a href="login.html">Go to back</a>&nbsp;<br>
+        <form action="signup_handler" method="post">
+            <label for=""><h2>Register </h2></label>
+            <table id="table1">
+            <tr>
+                  <td> User name</td>  
+                  <td><input type="text" placeholder="Enter ID" name="user_name"></td>  
+            </tr>
+            <tr>
+                <td>Password</td>      
+                <td><input type="password" placeholder="Enter password" name="pass"></td>  
+           </tr>
+           <tr>
+            <td> Confirm password</td>        
+            <td><input type="password" placeholder="Enter password" name="pass_confirm"></td>  
+          </tr>
+          <tr>
+            <td> Name</td>                
+            <td><input type="text" placeholder="Enter Name" name="name" ></td>  
+          </tr>
+          <tr>
+            <td> <label for="">Date of birth</label></td>                
+            <td><input type="date" placeholder="Enter DOB" name="dob"style="width: auto;"></td>  
+          </tr>
+          <tr>
+            <td> City</td>                
+            <td><select name="city" id="" name="city"style="height: 23px; width: 160px;">
+                <option value="" disabled selected>select city</option>
+                <option value="pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Bengular">Bengluar</option>
+                <option value="Hydrabad">Hydrabad</option>               
+            </select></td>  
+          </tr>
+            <tr>
+              <td> Course </td> 
+              <td>
+                 <select name="course" id=""  style="height: 23px; width: 160px;">
+                 <option value="" disabled selected>select course</option>
+                 <option value="BCS">B.Tech</option>
+                 <option value="BCA">BCA</option>
+                 <option value="MCS">MCA</option>
+                 <option value="MCA">M.Tech</option>
+                 </select>
+              </td> 
+             </tr>
+         </table>
+            <br>
+         <button type="submit" id="btn">Submit</button>&nbsp;&nbsp;&nbsp;
+         <button type="reset" id="btn1">Reset</button>
+         
+        </form>
+       <br><br>
+</div>  
+</center><br><br>
+</body>
+</html>
